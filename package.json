@@ -1,0 +1,35 @@
+{
+  "name": "katafonas",
+  "version": "1.0.0",
+  "description": "Katas para nosotros",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/area73/katafonas.git"
+  },
+  "keywords": [
+    "katas"
+  ],
+  "author": "Rodrigo Erades <rerades@siete3.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/area73/katafonas/issues"
+  },
+  "homepage": "https://github.com/area73/katafonas#readme",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "ramda": "^0.26.1"
+  }
+}
